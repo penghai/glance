@@ -1,0 +1,8 @@
+- name: Start the Image services and configure them to start when the system boots
+  service:
+    name: "{{item}}"
+    state: restarted
+    enabled: yes
+  with_items:
+    - openstack-glance-api
+    - openstack-glance-registry

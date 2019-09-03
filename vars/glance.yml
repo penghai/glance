@@ -1,0 +1,16 @@
+
+root_db_user: root
+root_db_password: root
+
+glance_db_name: glance
+glance_db_user: glance
+glance_db_password: glance
+mgnt_vip: 172.16.1.10
+mgnt_passwd: admin
+region_name: RegionOne
+memcached_servers: 172.16.1.11,172.16.1.12,172.16.1.13
+
+glance_name: glance
+glance_password: glance
+rabbitmq_user: openstack
+rabbitmq_password: openstack
