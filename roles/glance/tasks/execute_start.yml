@@ -1,6 +1,6 @@
 - name: copy ceph user key
   copy:
-    src: ceph_userkey/ceph.client.glance.keyring
+    src: ceph.client.glance.keyring
     dest: /etc/ceph/ceph.client.glance.keyring
     owner: root
     group: root
